@@ -63,7 +63,9 @@ then
     echo -n "" | sudo tee $EmbedMAS_TMP/list
 elif [ "$opt" = "update" ]
 then
-    sudo /usr/bin/chonosDDNSManager --conf >> /dev/null
+    #cleaning the /etc/hosts before
+    sed -i '/#chonos-neighbors service$/d' /etc/hosts
+    #sudo /usr/bin/chonosDDNSManager --conf >> /dev/null  -- comented in 2026/08/20
     list=$(/usr/bin/chonos-neighbors --list)
 
     echo "$list" | jq -r '.[] | "\(.ip) \(.name)"' | while read -r line; do

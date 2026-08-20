@@ -1,9 +1,9 @@
-# ChonBot auto discovery service
+# chonOS Neighbors auto discovery service
 
 
 |![chonOS-Neighbors-capa](https://github.com/chon-group/dpkg-chonos-neighbors/assets/32855001/66f06c91-a113-42b6-a177-50015e176659)|
 |:--:|
-|ChonOS-Neighbors implements auto discovery of _Cognitive Hardware on Networks Operating System (chonOS)_ on the Local Area Network.|
+|ChonOS-Neighbors implements auto discovery of _ChonOS_ devices on the Local Area Network.|
 
 ## How to Install?
 1) In a terminal run the commands below:
