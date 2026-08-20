@@ -7,7 +7,8 @@ Depends: chonos-log
 Pre-depends: python3 | python3.9 | python3.10 | python3.11 | python3.12, sudo, inotify-tools
 Suggests:
 Installed-Size: 280
-Maintainer: chon@grupo.cefet-rj.br
+Maintainer: Nilson Lazarin <chon@grupo.cefet-rj.br>
+Homepage: https://github.com/chon-group/dpkg-chonos-neighbors
 Conflicts:
 Replaces:
 Provides:
